@@ -1,0 +1,3 @@
+Web Directories or "Folders" are the containers for files, that give a path for a different files. It gives the files "directions".
+VCS are useful becuase it helps keep track of all the changes you made, in whta order, adn what it looked like before. It also has revert back options, andmakes sharing/colaborating easier.
+My favorite artistic medium naturally is just drawing with pencil and paper. One of my new favorites is photoshop, which gives me a whole new world of artistic ability.
