@@ -1,2 +1,2 @@
-# MART341-WebDesign
+# Kinsley Dean MART341-WebDesign
 Homework for my WebDesign class
