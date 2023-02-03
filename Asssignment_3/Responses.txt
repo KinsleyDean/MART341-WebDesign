@@ -1,0 +1,3 @@
+The DNS maps out the name and location of a website to the IP address that a device uses to find the website
+A piece of data that is in a web browser that the website can identify, to know its you.
+Thre protocol, domain, and path.
