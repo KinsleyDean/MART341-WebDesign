@@ -1,0 +1,174 @@
+#header{
+    background-color: url("../images/pic1.jpeg");
+}
+h1{
+    color: aquamarine;
+    font-family: Meriweather;
+    font-size: 100px;
+    letter-spacing: 0.3em;
+}
+#title:hover{
+    letter-spacing: .5em;
+    font-weight: 700;
+    color:blueviolet
+}
+.titleBorder{
+    height: 200px;
+    background-color: rgb(121, 209, 238);
+    color: rgb(121, 209, 238);
+}
+.titleBorder:hover{
+    background-color: rgb(126, 236, 236);
+    color: rgb(0, 190, 190);
+    text-indent: 11em;
+    font-family: Quicksand;
+    font-size:larger;
+}
+.subtitle{
+    padding-top: 50px;
+    font-size-adjust: 75px;
+    margin: auto;
+}
+
+.content-paragraph{
+    margin:auto;
+    color: aqua;
+    font: size 20px;
+    line-height: 26px;
+    max-width: 640px;
+    font-family: Quicksand;
+}
+.content-paragraph::first-line{
+    font-size: 30px;
+    font-family: Merriweather;
+    line-height: 40px;
+}
+.poem-link{
+    text-decoration: none;
+    color: aquamarine;
+}
+.poem-link:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+.poem-link:visited{
+    color: blueviolet;
+}
+.image{
+    display:block;
+    margin-left: 200px;
+    margin-right: auto;
+    width: 50%;
+    padding-left: 500px
+}
+img{
+    border: 20px solid #b654fb;
+}
+#img-link:hover{
+    border: 50px solid #b654fb;
+}
+body{
+    background-color:#450c96;
+    font-family:didot;
+    text-align: center;
+    border: 20xp;
+}
+div{
+    background-color:#168487;
+    border: 5px solid #31085a;
+    display: inline=block;
+    align-self: center;}
+
+#first-bar{
+    margin-top: 4em;
+    padding: 1em;
+}
+
+    /*menu*/
+    header{ 
+        position:fixed;
+        background-color:black;
+        width:99%;
+        height: 4em;
+        top:0px;
+        font-family:Merriweather;
+        text-align:right;
+    }
+
+    /*set the layout of the menu*/
+    .menu-items{
+        display: inline-block;
+        margin: 1em .2em;
+        background-color:#168487;
+        padding: .5em 1em;
+        border-radius: 1em;
+        min-width:6em;
+        text-align:center;
+
+    }
+    
+    .menu-item:hover {
+background-color: #b654fb;
+color:#31085a;
+    }
+    /*Styling my links*/
+    .menu-item a {
+        color:white;
+        text-decoration: none;
+    }
+
+    /*dropdown*/
+
+    .dropdown {
+        display:inline-block;
+    }
+
+    .dropdown-content{
+        display: none;
+        position:absolute;
+        margin:0.5em 0 0 -1em;
+        color:#000;
+        background-color:#fff;
+        z-index: 1;
+        border-radius: 0em 0em 1em 1em;
+    }
+
+    .dropdown:hover .dropdown-content {
+display: block;
+    }
+
+    .dropdown-content a{
+        color:black;
+    }
+
+    /*styling dropdown display*/
+    .dropdown-item {
+        display:block;
+        text-align: left;
+        margin: 0;
+        padding: 0.5em 1em 0.5em 1em;
+        min-width:6em;
+    }
+
+    .dropdown-item:hover, .dropdown-item:hover a{
+        color:white;
+        background-color:#450c96;
+    }
+    #foundation:hover{
+        bodrer-radius: 0em 0em 1em 1em;
+    }
+    
+    .dropdown:hover{
+        border-radius: 1em 1em 0em 0em;
+    }
+
+    /*adding in the site name styling*/
+    .site-name {
+        color:#31085a;
+        float: left;
+        min-width:6em;
+        padding: 0.5 1em;
+        letter-spacing: 0.3em;
+        font-weight:bold;
+        margin:1 em .2em;
+    }
